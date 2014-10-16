@@ -1,0 +1,32 @@
+{
+  "name": "simple-observer",
+  "version": "1.0.0",
+  "homepage": "https://github.com/html5crew/simple-observer",
+  "authors": [
+    "wilddog17",
+    "dduskim",
+    "eastkiki",
+    "ragiragi"
+  ],
+  "description": "Simple Javascript Observer Pattern",
+  "main": "observer.js",
+  "keywords": [
+    "observer",
+    "observer pattern",
+    "event emitter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "*_spec.js",
+    "karma.conf.js",
+    "package.json",
+    "Gruntfile.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "simple-inheritance": "*"
+  }
+}
