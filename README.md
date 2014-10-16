@@ -48,7 +48,34 @@ queue.emit('custom-event', { foo: "bar" });
 
 ## API
 
-- `on()` / `addListener()`
-- `off()` / `removeListener()`
-- `emit()`
-- `once()`
+#### `on(event(s), callback)`
+
+##### arguments
+- event(s):
+	- type: String or Array
+- callback:
+	- type: Function
+
+#### `off(event(s), callback)`
+
+##### arguments
+- event(s):
+	- type: String or Array
+- callback:
+	- type: Function
+
+#### `emit(event(s), eventObject)`
+
+##### arguments
+- event(s):
+	- type: String or Array
+- callback:
+	- type: Function
+
+#### `once(event, callback)`
+
+##### arguments
+- event:
+	- type: String
+- callback:
+	- type: Function
