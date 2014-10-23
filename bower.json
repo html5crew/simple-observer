@@ -27,6 +27,6 @@
     "README.md"
   ],
   "dependencies": {
-    "simple-inheritance": "*"
+    "simple-inheritance": "~1.0.1"
   }
 }
