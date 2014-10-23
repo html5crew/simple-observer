@@ -1,17 +1,13 @@
 {
   "name": "simple-observer",
   "version": "1.0.0",
-  "description": "John Resig's Simple JavaScript Inheritance",
-  "main": "class.js",
-  "dependencies": {
-    "karma-chrome-launcher": "^0.1.5",
-    "karma": "^0.12.24",
-    "karma-jasmine": "^0.1.5"
-  },
+  "description": "simple javascript observer pattern implementation",
+  "main": "observer.js",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-karma": "^0.9.0",
+    "grunt-release": "^0.7.0",
     "grunt-wiredep": "^1.9.0",
     "karma": "^0.12.24",
     "karma-jasmine": "^0.1.5",
